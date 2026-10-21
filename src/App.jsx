@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom"
-import { Header } from "./components"
-import { ScrollToTop } from "./components"
+import Header from "./components/header/Header.jsx"
+import ScrollToTop from "./components/ScrollToTop.jsx"
 
 function App() {
 

@@ -182,7 +182,7 @@ function Profile() {
                                     @{profileData?.login || username}
                                 </p>
 
-                                <h1 className="mt-2 break-words text-4xl font-semibold tracking-[-0.045em] text-paper md:text-6xl">
+                                <h1 className="mt-2 wrap-break-word text-4xl font-semibold tracking-[-0.045em] text-paper md:text-6xl">
                                     {profileData?.name || profileData?.login}
                                     <span className="text-moss-400">.</span>
                                 </h1>

@@ -87,7 +87,7 @@ function Repository() {
                                 {owner} ↗
                             </Link>
 
-                            <h1 className="mt-1 break-words text-4xl font-semibold tracking-[-0.045em] text-paper md:text-6xl">
+                            <h1 className="mt-1 wrap-break-word text-4xl font-semibold tracking-[-0.045em] text-paper md:text-6xl">
                                 {repo}
                                 <span className="text-moss-400">.</span>
                             </h1>
